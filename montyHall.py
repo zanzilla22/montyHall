@@ -27,4 +27,4 @@ for q in range(iterations):
     
 print(guesses)
 
-print(f'When {"switching after the reveal" if switchDoors else "maintaining your first choice"}, you guessed right {guesses["car"]/iterations * 100}% of the time!\nExpected was {"66%" if switchDoors else "33%"}')
+print(f'When {"switching after the reveal" if switchDoors else "maintaining your first choice"}, you guessed right {guesses["car"]/iterations * 100}% of the time!\nExpected was {"67%" if switchDoors else "33%"}')
